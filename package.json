@@ -12,7 +12,7 @@
     "lint": "solium -d contracts",
     "prepublishOnly": "yarn test",
     "publish": "npm publish",
-    "fork": "npx hardhat node --fork https://api.avax.network/ext/bc/C/rpc"
+    "start": "npx hardhat node --fork https://api.avax.network/ext/bc/C/rpc --port $PORT"
   },
   "devDependencies": {
     "@boringcrypto/boring-solidity": "boringcrypto/BoringSolidity#e06e943",
